@@ -44,3 +44,24 @@ set order to dtnsc
 // criar arquivo de indice
 
 index on nome to ind_nome
+
+//  erase nome-da-tabela  // apaga uma tabela
+
+
+close all
+
+modi comm prog1
+use 
+set default to t:/931718
+? reccount()
+// abrir tablema clientes na primeira área disponivel
+selec 0
+use clientes
+scan for salario > 1000
+cont_reg = cont_reg + 1
+end scan
+? cont_reg
+set talk off
+sum saalrio to X
+count for salario > 1000
+
