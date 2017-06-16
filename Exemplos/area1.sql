@@ -54,7 +54,7 @@ modi comm prog1
 use 
 set default to t:/931718
 ? reccount()
-// abrir tablema clientes na primeira área disponivel
+// abrir tabela clientes na primeira área disponivel
 selec 0
 use clientes
 scan for salario > 1000
