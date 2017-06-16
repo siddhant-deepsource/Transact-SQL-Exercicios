@@ -1,0 +1,15 @@
+<html>
+<head>
+<title> Teste de Cadastro </title>
+</head>
+<body background="backgrnd.gif">
+<body bgcolor="FFFFFF">
+<center>
+<h1> Obrigado por se cadastrar aqui! </h1>
+<hr>
+<form action="todos.idc" method="POST">
+<input type="SUBMIT" value="Clique aqui para ver o cadastro">
+</form>
+</center>
+</body>
+</html>
