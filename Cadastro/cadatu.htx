@@ -1,0 +1,22 @@
+//   cadatu.htx
+
+<html>
+<head>
+<title> Teste de cadastro </title>
+</head>
+<Body background="backgrnd.gif">
+<body bgcolor="FFFFFF">
+<hr>
+<center>
+<form action = "CadAtu.idc">
+<%begindetail%>
+<input type = "HIDDEN" name="updnumero" value = <%numero%>><br>
+<pre>Nome: <input name = "updnome" value = "<%nome>" size=60 maxlength=40></pre>
+<pre>Estado: <imput name="updestado" value "<%estado%>" size=4 maxlength=2></pre>
+<pre>Código: <input name = "updcodigo" value = <%codigo%> size=6 maxlength=4></pre>
+<%enddetail%>
+<p>
+<hr>
+<input type = "SUMIT" value = "Altere as informações e clique aqui para efetivá-las">
+</body>
+</html>
