@@ -44,6 +44,7 @@ set order to dtnsc
 // criar arquivo de indice
 
 index on nome to ind_nome
+// hello world
 
 //  erase nome-da-tabela  // apaga uma tabela
 
