@@ -14,6 +14,10 @@ select 20
 use
 close all // fecha todas as tabelas, janelas, arquivos, etc...
 
+SELECT Tab2
+USE table3
+close all
+
 select tab1
 use tabela3 in 3
 
